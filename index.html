@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo argentino</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="img/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="html/catalogo.html">Catalogo</a>
+            <a class="nav-link" href="html/pregfrec.html">Preguntas frecuentes</a>
+            <a class="nav-link" href="html/meddepago.html">Medios de pago</a>
+            <a class="nav-link" href="html/contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h1>Turismo Argentino</h1>
+  </header>
+  <main>
+    <h2>Lugares mas visitados</h2>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="carousel" src="img/mdq.jpg" class="d-block w-100" alt="paisaje">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mar del Plata</h5>
+            <p>Nada como la costa argentina</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel" src="img/brc.jpg" class="d-block w-100" alt="pasisaje">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bariloche</h5>
+            <p>Ideal para hacer ejercicio</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel" src="img/cat.webp" class="d-block w-100" alt="paisaje">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cataratas del Iguazu</h5>
+            <p>Ideal para descansar</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </main>
+  <article class="intro">
+    <h5>¿Porque es importante viajar?</h5>
+    <p>Los viajes no solo reducen el estrés, sino que también expanden la mente. Conocer gente nueva y adaptarse a
+      situaciones nuevas hace que seas más consciente global y culturalmente. Esto mantiene la mente aguda, aumenta la
+      creatividad y ayuda con el crecimiento personal.</p>
+    </article>
+  <div class="container">
+    <footer>
+      <div class="d-flex flex-column flex-sm-row justify-content-between">
+        <p>&copy; Todos los derechos reservados. Turismo Argentino</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="https://twitter.com"><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter" />
+              </svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="https://instagram.com"><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram" />
+              </svg></a></li>
+          <li class="ms-3" +><a class="link-dark" href="https://whatsapp.com"><svg class="bi" width="24" height="24">
+                <use xlink:href="#whatsapp" />
+              </svg></a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+    <div class="botonWhatsApp">
+        <a href="https://api.whatsapp.com" target="_blank"><img src="img/logoWhatsapp.png" alt="Link a WhatsApp"></a>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
