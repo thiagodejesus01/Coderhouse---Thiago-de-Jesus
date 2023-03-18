@@ -3,7 +3,7 @@
 	color: $color_1;
 }
 
-@mixin descr{
+@mixin descr {
 	border: #ABD2FA 5px solid;
 	padding: 50px;
 	margin: 50px;
@@ -15,49 +15,57 @@
 	justify-content: space-between;
 	margin: 3px;
 }
+
 .logo {
 	width: 150px;
 	height: 150px;
 	margin: 20px;
 }
+
 h1 {
 	text-align: center;
 	font-size: 100px;
 	padding: 25px;
 	font-weight: bold;
 }
+
 header {
 	background-color: $background-color_1;
-@include anclas;
+	@include anclas;
 }
+
 footer {
 	font-family: $font-family_1;
 	color: $color_2;
 	margin: 20px;
 	text-align: left;
 }
+
 .nav-link {
-@include anclas;
+	@include anclas;
 	font-size: 150%;
 	font-weight: bold;
 }
+
 body {
 	background-color: $background-color_2;
 }
-article {
- @include descr;
- @include anclas;
-}
 
-.determinados{
+article {
 	@include descr;
 	@include anclas;
 }
+
+.determinados {
+	@include descr;
+	@include anclas;
+}
+
 h2 {
 	text-align: center;
 	font-size: 20px;
 	font-family: $font-family_1;
-	color: $color_2;
+	color: $color_1;
 }
 
 .carousel {
@@ -65,20 +73,24 @@ h2 {
 	height: 500px;
 	object-fit: cover;
 }
+
 h5 {
 	font-size: 50px;
 	font-family: $font-family_1;
-	font-weight: bold;}
+	font-weight: bold;
+}
 
 .preguntas {
-		font-size: 50px;
-		font-family: $font-family_1;
-		font-weight: bold;
+	font-size: 50px;
+	font-family: $font-family_1;
+	font-weight: bold;
 }
+
 p {
 	font-size: 20px;
 	font-family: $font-family_1;
 }
+
 form {
 	text-align: center;
 	border: #3D518C 5px solid;
@@ -87,15 +99,17 @@ form {
 	position: inline;
 	font-family: $font-family_1;
 	font-size: 150%;
-	color: $color_2;
+	color: $color_1;
 	font-weight: bold;
 }
+
 h3 {
 	padding: 30px;
 	font-size: 200%;
 	border-bottom: #3D518C;
 	justify-content: center;
 }
+
 .botonWhatsApp {
 	img {
 		width: 70px;
@@ -105,10 +119,9 @@ h3 {
 	}
 }
 
-h6{
-	color:#3D518C;
-	font-size:200%;
+h6 {
+	color: #3D518C;
+	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
 }
-
